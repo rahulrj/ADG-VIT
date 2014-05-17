@@ -1,0 +1,158 @@
+*{
+    
+	padding:0px;
+	margin:0px;
+}
+
+body,html{
+	width:100%;
+	height:100%;
+    background:white;
+
+}
+@font-face
+{
+font-family: myFirstFont;
+src: url('http://www.adgvit.in/iwp/fonts/kberry.ttf') format('truetype');
+    
+}
+table
+{
+margin-left:10%;
+margin-top:5%;
+margin-right:15%;
+}
+.menu
+{
+float:right;
+margin-top:20px;
+margin-right:20px;    
+	
+}
+
+#webname
+{
+    font-family:myFirstFont,Verdana,Arial;
+    font-size:60px;
+    margin-left:40px;
+    color:white;
+}
+#webname2
+{
+    font-family:myFirstFont,Verdana,Arial;
+    font-size:60px;
+    margin-left:40px;
+    color:white;
+}
+.label
+{
+    font-size:20px;
+    background:black;
+    display:block;
+    padding-left:40%;
+    padding-top:2%;
+    padding-bottom:2%;
+    color:white;
+}
+.right
+{
+height:50%;
+width:25%;
+background: -moz-linear-gradient(top, #f9fcf7 0%, #f5f9f0 100%);
+float:right;
+margin-right:2%;
+margin-top:2%;
+
+border:2px solid #000000;
+
+}
+
+#decoration2
+{
+height:10%;
+width:inherit;
+background: -moz-linear-gradient(top, #6bba70 0%, #6bba70 100%);
+}
+
+
+.outer2
+{
+width:25%;
+height:40%;
+padding-top:1%;
+margin-top:2%;
+margin-left:2%;
+border:2px solid black;
+display:block;
+}
+
+
+.shownames
+{
+width:30%;
+height:4%;
+padding-left:16%;
+color:black;
+}
+.showpoints
+{
+width:15%;
+height:4%;
+padding-left:12%;
+color:black;
+}
+
+
+img
+{
+float:left;
+margin-left:10px;
+width:5%;
+height:28%;
+display:inline;
+}	
+
+.buttons
+{
+margin-top:4%;
+height:25%;	
+}
+
+.button{
+color:#08233e;
+font:.8em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+
+background: -moz-linear-gradient(top, #6bba70 0%, #6bba70 100%);
+border:1px solid #ffcc00;
+border-radius:5px;
+border-bottom:1px solid #9f9f9f;
+height:100%;
+width:10%;
+margin-left:1%;
+}
+
+
+.name
+{
+display:inline;
+margin-left:20px;
+margin-top:20px;	
+color:#000000;
+	
+}
+.time
+{
+float:right;
+margin-right:10px;
+margin-top:1px;	
+color:#000000;
+}
+.title
+{
+margin-left:20px;
+margin-top:10px;
+clear:both;
+float:none;	
+color:#000000;
+	
+}

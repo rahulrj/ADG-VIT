@@ -1,0 +1,23 @@
+<?php  
+$user_id=$_POST['user_id'];  
+$status=$_POST['status'];
+$date=$_POST['date'];
+$time=$_POST['time'];  
+
+
+$usern = "VitWhatsGoingOn";  
+$pswd = "Myf@mil3";  
+$db = "VitWhatsGoingOn";  
+$conn = mysql_connect("182.50.131.232 ", $usern, $pswd);  
+
+mysql_select_db($db, $conn);  
+
+
+
+
+$query = "insert into registration value ('','$user_id','$status','$date','$time')";
+
+$result= mysql_query($query);
+echo $result;
+mysql_close();
+?>
